@@ -141,7 +141,8 @@ public:
   }
 
   ~Cache(){
-
+ delete leastUsed;
+ delete entries;
 
   }
 private:
